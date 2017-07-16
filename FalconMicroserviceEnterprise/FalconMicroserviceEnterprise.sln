@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcon.Bootstrap", "Falcon.Bootstrap\Falcon.Bootstrap.csproj", "{D581C236-E01B-46A6-81EF-B86E8886F1EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{286D91AE-32F0-4A77-BB28-0FD1227463F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcon.Core.Server", "Falcon.Core.Server\Falcon.Core.Server.csproj", "{B440FCE9-6DCB-44C9-9289-F09736E1F065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server.Common", "Server.Common", "{83ABD9B7-1B07-452E-AFE6-67E78B313D3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Falcon.Server.Common", "Falcon.Server.Common\Falcon.Server.Common.csproj", "{D3328FD7-7384-4456-BE97-F0C0AD837355}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +23,20 @@ Global
 		{D581C236-E01B-46A6-81EF-B86E8886F1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D581C236-E01B-46A6-81EF-B86E8886F1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D581C236-E01B-46A6-81EF-B86E8886F1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B440FCE9-6DCB-44C9-9289-F09736E1F065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B440FCE9-6DCB-44C9-9289-F09736E1F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B440FCE9-6DCB-44C9-9289-F09736E1F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B440FCE9-6DCB-44C9-9289-F09736E1F065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3328FD7-7384-4456-BE97-F0C0AD837355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3328FD7-7384-4456-BE97-F0C0AD837355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3328FD7-7384-4456-BE97-F0C0AD837355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3328FD7-7384-4456-BE97-F0C0AD837355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B440FCE9-6DCB-44C9-9289-F09736E1F065} = {286D91AE-32F0-4A77-BB28-0FD1227463F8}
+		{D3328FD7-7384-4456-BE97-F0C0AD837355} = {83ABD9B7-1B07-452E-AFE6-67E78B313D3E}
 	EndGlobalSection
 EndGlobal
