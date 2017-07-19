@@ -55,10 +55,6 @@
       <Project>{b440fce9-6dcb-44c9-9289-f09736e1f065}</Project>
       <Name>Falcon.Core.Server</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Falcon.Server.Common\Falcon.Server.Common.csproj">
-      <Project>{d3328fd7-7384-4456-be97-f0c0ad837355}</Project>
-      <Name>Falcon.Server.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
